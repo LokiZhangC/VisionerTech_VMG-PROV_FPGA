@@ -1,0 +1,55 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+WARNING:sim - A core named 'sensor_clk' already exists in the project. Output
+   products for this core may be overwritten.
+Resolving generics for 'sensor_clk'...
+WARNING:sim - A core named 'sensor_clk' already exists in the project. Output
+   products for this core may be overwritten.
+Applying external generics to 'sensor_clk'...
+Delivering associated files for 'sensor_clk'...
+Delivered 4 files into directory
+E:/Xilinx/Project_VMG-PROV_v2/design/clock/IP/sensor_clk/tmp/_cg/sensor_clk
+Delivered 1 file into directory
+E:/Xilinx/Project_VMG-PROV_v2/design/clock/IP/sensor_clk/tmp/_cg/sensor_clk
+Generating ASY schematic symbol...
+Loading device for application Rf_Device from file '6slx45.nph' in environment
+D:\Xilinx\13.4\ISE_DS\ISE\.
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating SYM schematic symbol for 'sensor_clk'...
+Generating ISE project...
+XCO file found: sensor_clk.xco
+XMDF file found: sensor_clk_xmdf.tcl
+Adding
+E:/Xilinx/Project_VMG-PROV_v2/design/clock/IP/sensor_clk/tmp/_cg/sensor_clk/sens
+or_clk.ucf -view all -origin_type created
+Adding
+E:/Xilinx/Project_VMG-PROV_v2/design/clock/IP/sensor_clk/tmp/_cg/sensor_clk/exam
+ple_design/sensor_clk_exdes.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/Xilinx/Project_VMG-PROV_v2/design/clock/IP/sensor_clk/tmp/_cg/sensor_clk/
+   example_design/sensor_clk_exdes.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+E:/Xilinx/Project_VMG-PROV_v2/design/clock/IP/sensor_clk/tmp/_cg/sensor_clk.asy
+-view all -origin_type imported
+Adding
+E:/Xilinx/Project_VMG-PROV_v2/design/clock/IP/sensor_clk/tmp/_cg/sensor_clk.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/Xilinx/Project_VMG-PROV_v2/design/clock/IP/sensor_clk/tmp/_cg/sensor_clk.
+   v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+E:/Xilinx/Project_VMG-PROV_v2/design/clock/IP/sensor_clk/tmp/_cg/sensor_clk.veo
+-view all -origin_type imported
+WARNING:coreutil - WARNING: This core does not have a top level called
+   "/sensor_clk"
+   WARNING: Top level has been set to "/sensor_clk_exdes"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'sensor_clk'.

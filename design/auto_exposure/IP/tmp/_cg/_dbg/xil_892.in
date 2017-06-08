@@ -1,0 +1,57 @@
+SET_FLAG DEBUG FALSE
+SET_FLAG MODE INTERACTIVE
+SET_FLAG STANDALONE_MODE FALSE
+SET_PREFERENCE devicefamily spartan6
+SET_PREFERENCE device xc6slx45
+SET_PREFERENCE speedgrade -2
+SET_PREFERENCE package csg324
+SET_PREFERENCE verilogsim true
+SET_PREFERENCE vhdlsim false
+SET_PREFERENCE simulationfiles Structural
+SET_PREFERENCE busformat BusFormatAngleBracketNotRipped
+SET_PREFERENCE outputdirectory E:/Xilinx/Project_VMG-PROV_v3/design/auto_exposure/IP/
+SET_PREFERENCE workingdirectory E:/Xilinx/Project_VMG-PROV_v3/design/auto_exposure/IP/tmp/
+SET_PREFERENCE subworkingdirectory E:/Xilinx/Project_VMG-PROV_v3/design/auto_exposure/IP/tmp/_cg/
+SET_PREFERENCE transientdirectory E:/Xilinx/Project_VMG-PROV_v3/design/auto_exposure/IP/tmp/_cg/_dbg/
+SET_PREFERENCE designentry Verilog
+SET_PREFERENCE flowvendor Other
+SET_PREFERENCE addpads false
+SET_PREFERENCE projectname coregen
+SET_PREFERENCE formalverification false
+SET_PREFERENCE asysymbol false
+SET_PREFERENCE implementationfiletype Ngc
+SET_PREFERENCE foundationsym false
+SET_PREFERENCE createndf false
+SET_PREFERENCE removerpms false
+SET_PARAMETER Component_Name div_ae
+SET_PARAMETER algorithm_type High_Radix
+SET_PARAMETER dividend_and_quotient_width 44
+SET_PARAMETER dividend_has_tuser false
+SET_PARAMETER dividend_tuser_width 1
+SET_PARAMETER dividend_has_tlast false
+SET_PARAMETER divisor_width 32
+SET_PARAMETER divisor_has_tuser false
+SET_PARAMETER divisor_tuser_width 1
+SET_PARAMETER divisor_has_tlast false
+SET_PARAMETER remainder_type Fractional
+SET_PARAMETER fractional_width 2
+SET_PARAMETER operand_sign Signed
+SET_PARAMETER clocks_per_division 1
+SET_PARAMETER divide_by_zero_detect false
+SET_PARAMETER FlowControl NonBlocking
+SET_PARAMETER OptimizeGoal Performance
+SET_PARAMETER OutTready false
+SET_PARAMETER OutTLASTBehv Null
+SET_PARAMETER latency_configuration Automatic
+SET_PARAMETER latency 32
+SET_PARAMETER ACLKEN false
+SET_PARAMETER ARESETN false
+SET_CORE_NAME Divider Generator
+SET_CORE_VERSION 4.0
+SET_CORE_VLNV xilinx.com:ip:div_gen:4.0
+SET_CORE_CLASS com.xilinx.ip.div_gen_v4_0.div_gen_v4_0
+SET_CORE_PATH D:/Xilinx/13.4/ISE_DS/ISE/coregen/ip/xilinx/dsp/com/xilinx/ip/div_gen_v4_0
+SET_CORE_GUIPATH D:/Xilinx/13.4/ISE_DS/ISE/coregen/ip/xilinx/dsp/com/xilinx/ip/div_gen_v4_0/gui/div_gen_v4_0.tcl
+SET_CORE_DATASHEET D:\Xilinx\13.4\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\div_gen_v4_0\doc\ds819_div_gen.pdf
+ADD_CORE_DOCUMENT <D:\Xilinx\13.4\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\div_gen_v4_0\doc\ds819_div_gen.pdf><ds819_div_gen.pdf>
+ADD_CORE_DOCUMENT <D:\Xilinx\13.4\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\div_gen_v4_0\doc\div_gen_v4_0_vinfo.html><div_gen_v4_0_vinfo.html>
